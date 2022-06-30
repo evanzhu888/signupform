@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    This resets the CSS, ensuring consistency amoung browsers.
+*/
+:root {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+body {
+    display: flex;
+}
+
+#sidebar {
+    background-image: url("background.jpg");
+    width: 80vh;
+    background-size: cover;
+    background-repeat:no-repeat;
+    position: relative;
+    
+}
+
+
+#logo {
+    position: relative;
+    top: 100px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+
+#odinlogo {
+    height: 6rem;
+    display:inline;
+}
+#odin {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 6rem;
+    opacity:1;
+    color:white;
+    position: relative;
+}
+
+#credit {
+    position: fixed;
+    padding: 8px;
+    bottom: 0;
+    color:white;
+    font-size: 1rem;
+}
+/* Rightside
+*/
+
+#rightside {
+    display: flex;
+    flex-direction: column;
+    width: min(100%, 130vh);
+    position: relative;
+    background-color: rgb(240, 238, 238);
+
+}
+
+em {
+    font-style: italic;
+}
+
+red {
+    background-color: white;
+    color:red;
+}
+
+#paragraph {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    padding: 120px 80px 60px 80px;
+    position: relative;
+    gap: 25px;
+}
+
+legend {
+    font-size: 1.5rem;
+    margin-left: 20px;
+}
+
+#formcontainer {
+    padding: 20px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 2rem;
+    width: 16rem;
+    margin-top: 5px;
+}
+fieldset {
+    display: flex;
+    gap: 10px;
+}
+
+
+label {
+    color: rgb(80,80,80);
+}
+
+.form {
+    display:flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+fieldset:last-child {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: skyblue;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    border: 0px;
+    border-radius: 5px;
+    margin: 25px 25px 5px 40px;
+    font-size: 1.5rem;
+    padding: 15px;
+}
+
+#bottom {
+    margin: 5px 25px 100px 40px;
+}
+
+#login {
+    color: skyblue;
+}
+
+
+
